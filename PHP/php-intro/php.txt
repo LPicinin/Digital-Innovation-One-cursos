@@ -1,0 +1,42 @@
+Para exeutar colar pasta do projeto em C:\xampp\htdocs
+Baseada em scripts
+
+server side = backend
+
+request/response
+
+interpretado
+
+multi paradigma
+
+
+Ecosistemas
+	CMS
+		Wordpress, drupal, magento e october
+	frameworks
+		symfony, zend, laravel, cake, phalco
+	ambiente de desenvolvimento
+		apache ou Ngnix
+
+
+Comanodos de saida
+	echo, print, var_dump(volta informações sobre o parametro), print_r
+
+dados do formulario
+	$_GET, $_POST
+
+sessões
+	$_SESSION - manter o estado enquanto o navegardor estiver aberto
+
+Arrays
+
+
+II - $metais_alcalinoterrosos[] = 'Berílio';9
+V - $metais_alcalinoterrosos[] = 'Magnésio';24
+III - $metais_alcalinoterrosos[] = 'Cálcio';40
+IV - $metais_alcalinoterrosos[] = 'Estrôncio';87
+I - $metais_alcalinoterrosos[] = 'Bario';137
+VI - $metais_alcalinoterrosos[] = 'Rádio';226
+
+urano6
+[0]=>Mercúrio [1]=>Vênus [2]=>Terra [3]=>Marte [4]=Júpiter [5]=>Saturno)urano6
