@@ -21,3 +21,11 @@ strlen()
 is_integer()
 is_numeric()
 is_string()
+
+
+$_SESSION = forma de persistir dados do usuário enquanto o navegador do mesmo estiver aberto
+
+session_start() = deve vir antes de qualquer código php, inicia a sessão
+
+
+para saber se uma variavel já foi instanciada e inicializada
