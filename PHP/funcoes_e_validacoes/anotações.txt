@@ -1,0 +1,31 @@
+http metodo de comunicação cliente/servidor, com requests e responses
+
+	metodos:
+		get:
+		post:
+	headers: todo tipo de informação pro servidor indentificar origem e outras coisas
+
+
+Manipulação de formularios php:$_GET e $_POST
+
+get = dados no header da request
+post = dados no corpo da request
+
+
+$_POST = variavel que recupera dados enviados por metodo post no lado do servidor
+
+
+empty()
+strlen()
+
+is_integer()
+is_numeric()
+is_string()
+
+
+$_SESSION = forma de persistir dados do usuário enquanto o navegador do mesmo estiver aberto
+
+session_start() = deve vir antes de qualquer código php, inicia a sessão
+
+
+para saber se uma variavel já foi instanciada e inicializada
