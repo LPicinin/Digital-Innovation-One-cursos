@@ -1,0 +1,2 @@
+Vantagens da OO: 
+um classe é a representação de um objeto no sistema
