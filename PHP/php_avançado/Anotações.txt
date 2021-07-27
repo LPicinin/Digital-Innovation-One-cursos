@@ -1,0 +1,8 @@
+Composer serve para manipular as dependências
+
+PHPUnit para testes unitários
+
+PSR = padrões de código
+
+
+composer init inicia pacote composer
