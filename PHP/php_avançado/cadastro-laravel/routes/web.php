@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +12,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Usuario@cadastrar')->name('home');
+Route::post('/salvar', 'Usuario@salvar')->name('salvar');
+
+//Route::match(['get', 'post'], '/');

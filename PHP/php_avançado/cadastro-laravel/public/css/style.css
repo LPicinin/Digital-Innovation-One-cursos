@@ -1,0 +1,16 @@
+
+html, body
+{
+    padding: 0;
+    margin: 0;;
+}
+
+
+.logo{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+.logo>img{
+    width: 500px;
+}

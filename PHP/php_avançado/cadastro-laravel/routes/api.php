@@ -1,7 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-
+use App\Models\Usuario;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +14,15 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+//Route::middleware('auth:api')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+
+Route::prefix('v1')->group(function ()
+{
+    Route::get('lista', function(){
+        return Usuario::listar(10);
+    });
+
+    Route::post('cadastra', "API\Usuario@salvar");
 });

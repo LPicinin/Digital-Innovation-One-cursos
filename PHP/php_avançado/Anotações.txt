@@ -42,3 +42,13 @@ Laravel: composer create-project --prefer-dist laravel/laravel:^7.0 blog
 
 Limpa o cache(necessário quando as configurações são alteradas)
 php artisan config:clear
+
+
+Cria Controller usuário
+php artisan make:controller Usuario
+
+Cria Model usuário
+php artisan make:model Models/Usuario
+
+Incializa um server
+php artisan serve
