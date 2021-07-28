@@ -1,3 +1,6 @@
+https://packagist.org/
+
+
 Composer serve para manipular as dependências
 
 PHPUnit para testes unitários
@@ -6,3 +9,30 @@ PSR = padrões de código
 
 
 composer init inicia pacote composer
+
+Instalando dependencias: composer require url_do_packagist
+
+testes unitários:
+
+
+vendor/bin/phpunit tests/ --colors=always
+
+Procura codigo fora do padrão psr12
+vendor/bin/phpcs src/ --standard=PSR12
+
+Procura como o acima, porém também tenta corrigir
+vendor/bin/phpcbf src/ --standard=PSR12
+
+
+https://www.php-fig.org/psr/
+
+Documentação sobre padroes em portugues:
+http://br.phptherightway.com/
+
+
+Principais frameworks php:
+	Laravel
+	Symfony
+	Zend Framework
+	CodeIgnite
+	CakePHP

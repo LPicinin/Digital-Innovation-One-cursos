@@ -1,0 +1,5 @@
+Search
+ [x] Simple get adress from zip code default usage
+ [x] Get adress from zip code default usage with data set "Martinópolis"
+ [x] Get adress from zip code default usage with data set "Endereço praça da Sé"
+
