@@ -36,3 +36,9 @@ Principais frameworks php:
 	Zend Framework
 	CodeIgnite
 	CakePHP
+
+
+Laravel: composer create-project --prefer-dist laravel/laravel:^7.0 blog
+
+Limpa o cache(necessário quando as configurações são alteradas)
+php artisan config:clear
