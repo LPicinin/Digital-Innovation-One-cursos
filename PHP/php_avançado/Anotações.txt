@@ -52,3 +52,11 @@ php artisan make:model Models/Usuario
 
 Incializa um server
 php artisan serve
+
+****Symfony
+composer create-project symfony/skeleton my_project_name
+
+Rodando no servidor puro do PHP como micro serviço: php -S localhost:8080 -t public/
+
+instalando mini servidor(não funcionou): composer require webserver
+
