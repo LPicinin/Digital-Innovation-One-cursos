@@ -61,3 +61,5 @@ Rodando no servidor puro do PHP como micro serviço: php -S localhost:8080 -t pu
 instalando mini servidor(não funcionou): composer require webserver
 
 Rotas podem ser definidas por: yaml, annotations, php ou xml
+
+para trabalhar com view no symfony skeleton instalar o twig: composer require twig
