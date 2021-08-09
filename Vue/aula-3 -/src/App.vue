@@ -1,13 +1,20 @@
 <template>
   <div id="app">
     <button @click="increment">Click ButtonInLine {{ count }} times</button>
-    {{ y }}
+    <CicloDeVida />
+    <Aula3 />
   </div>
 </template>
 
 <script>
+import CicloDeVida from "./components/CicloDeVida.vue";
+import Aula3 from "./components/Aula3.vue";
 export default {
   name: "App",
+  components: {
+    CicloDeVida,
+    Aula3,
+  },
   data() {
     return {
       count: 0,
@@ -23,9 +30,7 @@ export default {
     },
   },
   //parecidas commetodos, porem é um sistema baseado em cache
-  computed:{
-
-  }
+  computed: {},
 };
 </script>
 
