@@ -3,17 +3,20 @@
     <button @click="increment">Click ButtonInLine {{ count }} times</button>
     <CicloDeVida />
     <Aula3 />
+    <Propriedades />
   </div>
 </template>
 
 <script>
 import CicloDeVida from "./components/CicloDeVida.vue";
 import Aula3 from "./components/Aula3.vue";
+import Propriedades from "./components/Propriedades.vue";
 export default {
   name: "App",
   components: {
     CicloDeVida,
     Aula3,
+    Propriedades,
   },
   data() {
     return {
