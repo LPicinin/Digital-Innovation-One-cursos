@@ -4,6 +4,7 @@
     <CicloDeVida />
     <Aula3 />
     <Propriedades />
+    <Loop />
   </div>
 </template>
 
@@ -11,12 +12,15 @@
 import CicloDeVida from "./components/CicloDeVida.vue";
 import Aula3 from "./components/Aula3.vue";
 import Propriedades from "./components/Propriedades.vue";
+import Loop from "./components/Loop.vue";
+
 export default {
   name: "App",
   components: {
     CicloDeVida,
     Aula3,
     Propriedades,
+    Loop,
   },
   data() {
     return {
