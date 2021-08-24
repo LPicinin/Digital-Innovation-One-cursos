@@ -36,7 +36,6 @@ class UsuarioController extends AbstractController
         $usuario->setEmail($data['email']);
 
         // dump($usuario);
-
         $doctrine = $this->getDoctrine()->getManager();
         $doctrine->persist($usuario);//prepara a query
         $doctrine->flush();//efetua a operação
